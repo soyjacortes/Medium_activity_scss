@@ -1,0 +1,227 @@
+.logo {
+  height: 40px;
+  margin-left: 22px;
+  cursor: pointer;
+}
+
+header {
+  height: 55px;
+  display: flex;
+  border-bottom: rgb(238, 238, 238) solid 0.3px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.search-box {
+  margin-left: 10px;
+  max-height: 35px;
+  position: relative;
+}
+.search-box img {
+  height: 13px;
+  margin-left: 26px;
+  position: absolute;
+  top: 35%;
+  left: px;
+}
+.search-box input[type=text] {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+  padding-left: 50px;
+  background-color: rgba(233, 230, 230, 0.418);
+  border-radius: 20px;
+  outline: 0;
+  border: 0;
+}
+
+.write {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  left: 100px;
+  padding-left: 115vh;
+}
+.write article {
+  font-size: 16px;
+}
+.write img {
+  max-width: 42%;
+  left: 10px;
+  transform: translateY(-10%);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.signin-btn {
+  color: rgba(0, 0, 0, 0.61);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  border-radius: 18px;
+  margin-right: -10px;
+  background-color: rgb(26, 137, 23);
+  color: rgb(255, 255, 255);
+}
+.signin-btn:hover {
+  color: rgb(18, 95, 15);
+}
+
+.signup-btn {
+  color: rgba(0, 0, 0, 0.61);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  border-radius: 18px;
+  margin-right: -10px;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.user {
+  height: 40px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+  font-family: "Poppins", sans-serif;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 0;
+}
+
+.span1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.span2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.person {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.globant {
+  width: 30px;
+  margin-left: -15px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
+.nombre {
+  cursor: pointer;
+}
+
+.follow {
+  color: green;
+  cursor: pointer;
+}
+
+.datos {
+  float: right;
+}
+
+strong {
+  cursor: pointer;
+}
+
+.persona {
+  float: left;
+}
+
+.persona-datos {
+  width: 500px;
+}
+
+hr {
+  border-bottom: rgba(226, 226, 226, 0.479) solid 0.3px;
+  width: 665px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.applause {
+  width: 4vh;
+  float: left;
+  cursor: pointer;
+}
+
+.comment {
+  width: 3vh;
+  float: left;
+  margin-left: 40px;
+  padding-top: 4.5px;
+  cursor: pointer;
+}
+
+.ribbon {
+  width: 3vh;
+  float: left;
+  margin-left: 400px;
+  padding-top: 4.5px;
+  cursor: pointer;
+}
+
+.play {
+  width: 3vh;
+  float: left;
+  margin-left: 40px;
+  padding-top: 4.5px;
+  cursor: pointer;
+}
+
+.share {
+  width: 3vh;
+  float: left;
+  margin-left: 40px;
+  padding-top: 4.5px;
+  cursor: pointer;
+}
+
+.medium {
+  width: 73vh;
+  padding-top: 20px;
+}
+
+.photo {
+  color: rgb(116, 115, 115);
+}
+
+.photo2 {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.blog2 {
+  width: 73vh;
+}
+
+.footer-btn {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
